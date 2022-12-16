@@ -6,7 +6,7 @@ import { IoLogoFacebook } from 'react-icons/io';
 
 const Footer = () => {
   return (
-    <footer class="text-center lg:text-left bg-gray-100 text-gray-600">
+    <footer classNameName="text-center lg:text-left bg-gray-100 text-gray-600">
       <div className="flex flex-col justify-center items-center">
         {/* Social Icons */}
         <div className="flex justify-center items-center text-2xl -mb-2 space-x-2 py-4">
@@ -27,7 +27,7 @@ const Footer = () => {
             <AiFillInstagram />
           </a>
           <a
-            href="https://www.instagram.com/mike_rachlin/?hl=en"
+            href="https://www.facebook.com/rachlin.mike"
             target="_blank"
             rel="noreferrer"
             className="transition duration-300 ease-in-out hover:text-gray-400"
@@ -56,7 +56,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div class="text-center p-6 bg-gray-200">
+      <div classNameName="text-center p-6 bg-gray-200">
         <p>
           © 2022 Copyright <span className="font-bold">Mike Rachlin Music</span>{' '}
         </p>

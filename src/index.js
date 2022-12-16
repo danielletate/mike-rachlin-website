@@ -8,9 +8,11 @@ import ContactPage from './routes/ContactPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import ScrollUp from './components/ScrollUp';
 
 ReactDOM.render(
   <BrowserRouter>
+    <ScrollUp />
     <Navbar />
     <Routes>
       <Route path="/" element={<App />} />
